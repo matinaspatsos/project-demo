@@ -1,0 +1,25 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: radial-gradient(circle, #8bcb99 0%, #4aa65e 100%);
+  color: #24512e;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+body > * {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Patrick Hand", cursive;
+}
